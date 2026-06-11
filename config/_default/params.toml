@@ -13,15 +13,15 @@ hotlinkFeatureImage = false
 fingerprintAlgorithm = "sha512"
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
-seo = { }
-firebase = { }
-fathomAnalytics = { }
-umamiAnalytics = { }
-selineAnalytics = { }
-buymeacoffee = { }
-verification = { }
-rssnext = { }
-advertisement = { }
+seo = {}
+firebase = {}
+fathomAnalytics = {}
+umamiAnalytics = {}
+selineAnalytics = {}
+buymeacoffee = {}
+verification = {}
+rssnext = {}
+advertisement = {}
 defaultBackgroundImage = "background.svg"
 
 [header]
@@ -33,6 +33,10 @@ showCopyright = true
 showThemeAttribution = true
 showAppearanceSwitcher = true
 showScrollToTop = true
+
+[author]
+name = "Adeptus"
+image = 'adeptus.jpg'
 
 [homepage]
 layout = "background"
@@ -91,7 +95,7 @@ cardViewScreenWidth = false
 constrainItemsWidth = false
 
 [sitemap]
-excludedKinds = [ "taxonomy", "term" ]
+excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
 showTermCount = true

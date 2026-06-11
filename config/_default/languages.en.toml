@@ -9,3 +9,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
+description = "Justice, mercy, love. The union of madness and the mundane."
+
+["params.author"]
+image = "adeptus.jpg"

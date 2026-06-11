@@ -2,6 +2,7 @@
 date = '2026-06-06T15:14:37-04:00'
 draft = false
 title = 'Welcome to the Last Place on the Internet'
+author = 'Adeptus'
 +++
 
 ## Bricks and Minifigs: Healing our broken culture through corporate hate
