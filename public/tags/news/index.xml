@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Sharkeish4.n3t</title>
+    <link>http://localhost:1313/tags/news/</link>
+    <description>Recent content in News on Sharkeish4.n3t</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adeptus</copyright>
+    <lastBuildDate>Sat, 06 Jun 2026 15:14:37 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to the Last Place on the Internet</title>
+      <link>http://localhost:1313/posts/welcome-to-the-last-place-on-the-internet/</link>
+      <pubDate>Sat, 06 Jun 2026 15:14:37 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/welcome-to-the-last-place-on-the-internet/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/welcome-to-the-last-place-on-the-internet/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

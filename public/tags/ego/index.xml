@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ego on Sharkeish4.n3t</title>
+    <link>http://localhost:1313/tags/ego/</link>
+    <description>Recent content in Ego on Sharkeish4.n3t</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adeptus</copyright>
+    <lastBuildDate>Wed, 10 Jun 2026 15:17:57 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ego/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Weight of Freedom Fried in Duck Fat and Cat Naps</title>
+      <link>http://localhost:1313/posts/the-weight-of-freedom-fried-in-duck-fat-and-cat-naps/</link>
+      <pubDate>Wed, 10 Jun 2026 15:17:57 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-weight-of-freedom-fried-in-duck-fat-and-cat-naps/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/the-weight-of-freedom-fried-in-duck-fat-and-cat-naps/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

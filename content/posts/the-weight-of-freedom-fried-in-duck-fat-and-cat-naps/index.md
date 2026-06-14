@@ -2,6 +2,7 @@
 date = '2026-06-10T15:17:57-04:00'
 draft = false
 title = 'The Weight of Freedom Fried in Duck Fat and Cat Naps'
+tags = ["ego", "culture", "politics"]
 author = 'Adeptus'
 authorImage = 'adeptus.jpg'
 +++

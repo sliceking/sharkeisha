@@ -2,6 +2,7 @@
 date = '2026-06-12T11:34:33-04:00'
 draft = false
 title = 'Scams, Fraud, Elon, Keanu, Mental Illness and the Elderly'
+tags = ["scams", "culture", "politics"]
 author = 'Adeptus'
 authorImage = 'adeptus.jpg'
 +++
