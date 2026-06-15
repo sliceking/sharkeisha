@@ -48,6 +48,30 @@ I dont have much to say today. I havent been eating or sleeping or exercising we
         keys[e.key] = false;
     });
 
+    // mobile stuff
+    document.addEventListener("touchstart", touchHandler, false);
+    document.addEventListener("touchmove", touchHandler, false);
+
+    function touchHandler(e) {
+        // Prevent default browser scrolling/zooming
+        e.preventDefault();
+
+        if (e.touches && e.touches.length > 0) {
+            const touch = e.touches[0];
+
+            // Calculate position relative to the canvas
+            const canvasRect = canvas.getBoundingClientRect();
+            const x = touch.pageX - canvasRect.left;
+            const y = touch.pageY - canvasRect.top;
+
+            // Update player position (center the player on the finger)
+            player.x = x - player.width / 2;
+            player.y = y - player.height / 2;
+
+            // Render update logic here
+        }
+    }
+
     // 4. Game Logic (Update)
     function update() {
         if (keys['ArrowUp'] && player.y > 0) player.y -= player.speed;

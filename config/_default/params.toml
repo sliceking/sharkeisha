@@ -13,20 +13,19 @@ hotlinkFeatureImage = false
 fingerprintAlgorithm = "sha512"
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
-seo = { }
-firebase = { }
-fathomAnalytics = { }
-umamiAnalytics = { }
-selineAnalytics = { }
-verification = { }
-rssnext = { }
-advertisement = { }
+seo = {}
+firebase = {}
+fathomAnalytics = {}
+umamiAnalytics = {}
+selineAnalytics = {}
+verification = {}
+rssnext = {}
+advertisement = {}
 defaultBackgroundImage = "background.svg"
 
 [buymeacoffee]
 identifier = "sharkeisha.net"
 globalWidget = true
-globalWidgetMessage = "thanks so much, I really cant tell you how much this means"
 
 [header]
 layout = "basic"
@@ -100,7 +99,7 @@ constrainItemsWidth = false
 heroStyle = "thumbAndBackground"
 
 [sitemap]
-excludedKinds = [ "taxonomy", "term" ]
+excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
 showTermCount = true
