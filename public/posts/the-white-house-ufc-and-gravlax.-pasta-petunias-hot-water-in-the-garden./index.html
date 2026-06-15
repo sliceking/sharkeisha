@@ -60,11 +60,11 @@
     <meta property="article:modified_time" content="2026-06-14T13:59:38-04:00">
     <meta property="article:tag" content="Combat Sports">
     <meta property="article:tag" content="Dementia">
-    <meta property="og:image" content="http://localhost:1313/posts/the-white-house-ufc-and-gravlax.-pasta-petunias-hot-water-in-the-garden./featured.png">
+    <meta property="og:image" content="http://localhost:1313/posts/the-white-house-ufc-and-gravlax.-pasta-petunias-hot-water-in-the-garden./featured.webp">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/posts/the-white-house-ufc-and-gravlax.-pasta-petunias-hot-water-in-the-garden./featured.png">
+  <meta name="twitter:image" content="http://localhost:1313/posts/the-white-house-ufc-and-gravlax.-pasta-petunias-hot-water-in-the-garden./featured.webp">
   <meta name="twitter:title" content="The White House Ufc and Gravlax. Pasta, Petunias, Hot Water in the Garden.">
   <meta name="twitter:description" content="Justice, mercy, love. The union of madness and the mundane.">
 
@@ -593,7 +593,7 @@
 
   <div class="overflow-hidden rounded-md h-36 md:h-56 lg:h-72 nozoom">
     <img
-      src="/posts/the-white-house-ufc-and-gravlax.-pasta-petunias-hot-water-in-the-garden./featured_hu_243e40ae81db4.png"
+      src="/posts/the-white-house-ufc-and-gravlax.-pasta-petunias-hot-water-in-the-garden./featured_hu_d3e65092acac1a75.webp"
       role="presentation"
       loading="eager"
       decoding="async"
@@ -926,6 +926,30 @@
         keys[e.key] = false;
     });
 
+    // mobile stuff
+    document.addEventListener("touchstart", touchHandler, false);
+    document.addEventListener("touchmove", touchHandler, false);
+
+    function touchHandler(e) {
+        // Prevent default browser scrolling/zooming
+        e.preventDefault();
+
+        if (e.touches && e.touches.length > 0) {
+            const touch = e.touches[0];
+
+            // Calculate position relative to the canvas
+            const canvasRect = canvas.getBoundingClientRect();
+            const x = touch.pageX - canvasRect.left;
+            const y = touch.pageY - canvasRect.top;
+
+            // Update player position (center the player on the finger)
+            player.x = x - player.width / 2;
+            player.y = y - player.height / 2;
+
+            // Render update logic here
+        }
+    }
+
     // 4. Game Logic (Update)
     function update() {
         if (keys['ArrowUp'] && player.y > 0) player.y -= player.speed;
@@ -996,6 +1020,19 @@
           
         </span>
         <span class="flex flex-col items-end">
+          
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/magic-words-are-not-available/">
+              <span class="leading-6">
+                Magic Words Are Not Available&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-06-15T11:18:56-04:00">15 June 2026</time>
+              </span>
+            
           
         </span>
       </div>
@@ -1112,7 +1149,7 @@
       src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
       data-id="sharkeisha.net"
       data-description="Support me on Buy me a coffee!"
-      data-message="thanks so much, I really cant tell you how much this means"
+      
       data-color="#FFDD00"
       
       data-x_margin="18"

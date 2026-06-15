@@ -1,0 +1,70 @@
+
+<div id="gameContainer" style="text-align: center; margin: 20px 0;">
+    <canvas id="gameCanvas" style="border: 1px solid #ccc; display: block; margin: 0 auto;"></canvas>
+    <p><em>Use arrow keys or touch the screen to move the square.</em></p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var canvas = document.getElementById("gameCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // Set canvas size
+    canvas.width = 300;
+    canvas.height = 300;
+
+    // Player square
+    var player = { x: 134, y: 134, width: 32, height: 32, speed: 5 };
+    var vX = 0;
+    var vY = 0;
+
+    // Draw function
+    function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "blue";
+        ctx.fillRect(player.x, player.y, player.width, player.height);
+    }
+
+    // Game loop
+    function update() {
+        player.x += vX;
+        player.y += vY;
+
+        // Keep player within bounds
+        if (player.x < 0) player.x = 0;
+        if (player.x + player.width > canvas.width) player.x = canvas.width - player.width;
+        if (player.y < 0) player.y = 0;
+        if (player.y + player.height > canvas.height) player.y = canvas.height - player.height;
+
+        render();
+        requestAnimationFrame(update);
+    }
+
+    // Keyboard controls
+    document.addEventListener("keydown", function(e) {
+        if (e.keyCode == 37) { vX = -player.speed; vY = 0; } // Left
+        else if (e.keyCode == 39) { vX = player.speed; vY = 0; } // Right
+        else if (e.keyCode == 38) { vX = 0; vY = -player.speed; } // Up
+        else if (e.keyCode == 40) { vX = 0; vY = player.speed; } // Down
+        else { vX = 0; vY = 0; } // Stop
+    });
+
+    // Touch controls for mobile
+    canvas.addEventListener("touchstart", function(e) {
+        e.preventDefault();
+        var touch = e.touches[0];
+        var rect = canvas.getBoundingClientRect();
+        var touchX = touch.clientX - rect.left;
+        var touchY = touch.clientY - rect.top;
+
+        if (touchX < player.x + player.width/2) vX = -player.speed;
+        else vX = player.speed;
+
+        if (touchY < player.y + player.height/2) vY = -player.speed;
+        else vY = player.speed;
+    }, false);
+
+    // Start game
+    update();
+});
+</script>
