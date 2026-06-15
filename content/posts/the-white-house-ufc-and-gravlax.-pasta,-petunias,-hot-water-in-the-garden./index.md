@@ -19,3 +19,60 @@ Back to the UFC. It's weird that there is no undercard, but all the fights are b
 I feel like im just wandering. Floating. Aimless. I want to be able to help my mom. I want her to be able to not be so frustrated and upset about things. I wish she would listen to me. There are only 2 people trying to help and look out for her and she thinks we're obstacles in the way of her happiness.
 
 I dont have much to say today. I havent been eating or sleeping or exercising well. I dont feel great. I'm programming a bit. Fights are on. I hope its good. Distract me please.
+
+<canvas style="border: 2px solid #333; display: block; margin: 20px auto; background-color: #f0f0f0;" id="gameCanvas" width="600" height="400"></canvas>
+
+<script>
+    // 1. Setup Canvas
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // 2. Game State
+    const player = {
+        x: 50,
+        y: 50,
+        width: 30,
+        height: 30,
+        speed: 5,
+        color: '#3498db'
+    };
+
+    const keys = {};
+
+    // 3. Input Handling
+    document.addEventListener('keydown', (e) => {
+        keys[e.key] = true;
+    });
+
+    document.addEventListener('keyup', (e) => {
+        keys[e.key] = false;
+    });
+
+    // 4. Game Logic (Update)
+    function update() {
+        if (keys['ArrowUp'] && player.y > 0) player.y -= player.speed;
+        if (keys['ArrowDown'] && player.y < canvas.height - player.height) player.y += player.speed;
+        if (keys['ArrowLeft'] && player.x > 0) player.x -= player.speed;
+        if (keys['ArrowRight'] && player.x < canvas.width - player.width) player.x += player.speed;
+    }
+
+    // 5. Rendering (Draw)
+    function draw() {
+        // Clear screen
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw player
+        ctx.fillStyle = player.color;
+        ctx.fillRect(player.x, player.y, player.width, player.height);
+    }
+
+    // 6. Game Loop
+    function gameLoop() {
+        update();
+        draw();
+        requestAnimationFrame(gameLoop);
+    }
+
+    // Start the game
+    gameLoop();
+</script>
