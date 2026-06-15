@@ -18,11 +18,15 @@ firebase = { }
 fathomAnalytics = { }
 umamiAnalytics = { }
 selineAnalytics = { }
-buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
 defaultBackgroundImage = "background.svg"
+
+[buymeacoffee]
+identifier = "sharkeisha.net"
+globalWidget = true
+globalWidgetMessage = "thanks so much, I really cant tell you how much this means"
 
 [header]
 layout = "basic"
