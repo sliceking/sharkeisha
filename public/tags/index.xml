@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adeptus</copyright>
-    <lastBuildDate>Fri, 12 Jun 2026 11:34:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jun 2026 13:59:38 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Combat Sports</title>
+      <link>http://localhost:1313/tags/combat-sports/</link>
+      <pubDate>Sun, 14 Jun 2026 13:59:38 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/combat-sports/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dementia</title>
+      <link>http://localhost:1313/tags/dementia/</link>
+      <pubDate>Sun, 14 Jun 2026 13:59:38 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/dementia/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Culture</title>
@@ -35,6 +55,36 @@
       <pubDate>Fri, 12 Jun 2026 11:34:33 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/scams/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ego</title>
+      <link>http://localhost:1313/tags/ego/</link>
+      <pubDate>Wed, 10 Jun 2026 15:17:57 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ego/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>http://localhost:1313/tags/news/</link>
+      <pubDate>Sat, 06 Jun 2026 15:14:37 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/news/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>http://localhost:1313/tags/youtube/</link>
+      <pubDate>Sat, 06 Jun 2026 15:14:37 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/youtube/</guid>
       <description></description>
       
     </item>

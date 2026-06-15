@@ -19,5 +19,15 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/scams-fraud-elon-keanu-mental-illness-and-the-elderly/featured.webp" />
     </item>
     
+    <item>
+      <title>The Weight of Freedom Fried in Duck Fat and Cat Naps</title>
+      <link>http://localhost:1313/posts/the-weight-of-freedom-fried-in-duck-fat-and-cat-naps/</link>
+      <pubDate>Wed, 10 Jun 2026 15:17:57 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/the-weight-of-freedom-fried-in-duck-fat-and-cat-naps/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/the-weight-of-freedom-fried-in-duck-fat-and-cat-naps/featured.webp" />
+    </item>
+    
   </channel>
 </rss>
