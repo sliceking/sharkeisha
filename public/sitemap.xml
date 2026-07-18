@@ -3,19 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/am-i-nothing/</loc>
-    <lastmod>2026-07-15T18:20:39-04:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-18T13:20:05-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-07-15T18:20:39-04:00</lastmod>
+    <loc>http://localhost:1313/posts/routine-system/</loc>
+    <lastmod>2026-07-18T13:20:05-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-18T13:20:05-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/destroy-themselves-or-join-the-darkness/</loc>
+    <lastmod>2026-07-17T21:16:09-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/can-i-help-you/</loc>
+    <lastmod>2026-07-16T12:54:01-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/am-i-nothing/</loc>
     <lastmod>2026-07-15T18:20:39-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

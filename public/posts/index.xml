@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adeptus</copyright>
-    <lastBuildDate>Wed, 15 Jul 2026 18:20:39 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jul 2026 13:20:05 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Routine System</title>
+      <link>http://localhost:1313/posts/routine-system/</link>
+      <pubDate>Sat, 18 Jul 2026 13:20:05 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/routine-system/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/routine-system/featured.webp" />
+    </item>
+    
+    <item>
+      <title>Destroy Themselves or Join the Darkness</title>
+      <link>http://localhost:1313/posts/destroy-themselves-or-join-the-darkness/</link>
+      <pubDate>Fri, 17 Jul 2026 21:16:09 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/destroy-themselves-or-join-the-darkness/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/destroy-themselves-or-join-the-darkness/featured.png" />
+    </item>
+    
+    <item>
+      <title>Can I Help You</title>
+      <link>http://localhost:1313/posts/can-i-help-you/</link>
+      <pubDate>Thu, 16 Jul 2026 12:54:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/can-i-help-you/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/can-i-help-you/featured.webp" />
+    </item>
     
     <item>
       <title>Am I Nothing?</title>
@@ -16,7 +46,7 @@
       
       <guid>http://localhost:1313/posts/am-i-nothing/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/am-i-nothing/featured.webp" />
     </item>
     
     <item>

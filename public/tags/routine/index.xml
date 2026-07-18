@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Routine on Sharkeish4.n3t</title>
+    <link>http://localhost:1313/tags/routine/</link>
+    <description>Recent content in Routine on Sharkeish4.n3t</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adeptus</copyright>
+    <lastBuildDate>Sat, 18 Jul 2026 13:20:05 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/routine/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Routine System</title>
+      <link>http://localhost:1313/posts/routine-system/</link>
+      <pubDate>Sat, 18 Jul 2026 13:20:05 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/routine-system/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/routine-system/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>
