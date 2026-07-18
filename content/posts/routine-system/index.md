@@ -27,4 +27,4 @@ Gotta stop the negative self talk completely. This is going to be difficult, but
 
 Move hive fortress project over to wielga. move portfolio to wielga.
 
-OK>. This is going to go real well. I wish it wasn't so rainy and it was a little cooler out. Alright. I guess its time to run until i cry. Thats a good metric.
+OK>. This is going to go real well. I wish it wasn't so rainy and it was a little cooler out. Alright. I guess its time to run until i cry. Thats a good metric. I've eaten cookies almost exclusively this week. Not the most interesting or shocking diet experiment. I dont think I have diabeties yet. I should stop that.
