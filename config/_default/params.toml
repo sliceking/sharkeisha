@@ -37,10 +37,6 @@ showThemeAttribution = true
 showAppearanceSwitcher = true
 showScrollToTop = true
 
-[author]
-name = "Adeptus"
-image = "adeptus.jpg"
-
 [homepage]
 layout = "background"
 showRecent = true
