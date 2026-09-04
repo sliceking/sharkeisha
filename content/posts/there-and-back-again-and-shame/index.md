@@ -3,7 +3,7 @@ date = '2026-08-27T20:30:41-04:00'
 draft = false
 title = 'There and Back Again and Shame'
 author = 'Adeptus'
-tags = [¨journal¨, ¨mom¨, ¨addiction¨]
+tags = ['journal', 'mom', 'addiction']
 authorImage = 'adeptus.jpg'
 +++
 

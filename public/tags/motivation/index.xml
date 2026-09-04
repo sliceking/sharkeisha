@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/posts/sodapop-and-the-delusion-factory-at-the-center/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/sodapop-and-the-delusion-factory-at-the-center/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/sodapop-and-the-delusion-factory-at-the-center/featured.webp" />
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       
       <guid>http://localhost:1313/posts/list/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/list/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/list/featured.webp" />
     </item>
     
     <item>

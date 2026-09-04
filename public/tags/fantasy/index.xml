@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/posts/storytime-one/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/storytime-one/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/storytime-one/featured.webp" />
     </item>
     
   </channel>
