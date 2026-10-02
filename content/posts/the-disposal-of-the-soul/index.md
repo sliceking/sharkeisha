@@ -4,6 +4,7 @@ draft = false
 title = 'The Disposal of the Soul'
 author = 'Adeptus'
 authorImage = 'adeptus.jpg'
+tags =['home improvement', 'hermes', 'kitchen']
 +++
 
 ## say what you want and then do it

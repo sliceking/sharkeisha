@@ -4,6 +4,7 @@ draft = false
 title = 'Day List, Day Man, Night List, Night Ham'
 author = 'Adeptus'
 authorImage = 'adeptus.jpg'
+tags =['organization', 'project management', 'motivation']
 +++
 
 ## Sometimes there will be a stump to stub your toe on
