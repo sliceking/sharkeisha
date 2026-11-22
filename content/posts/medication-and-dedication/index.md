@@ -4,6 +4,7 @@ draft = false
 title = 'Medication and Dedication'
 author = 'Adeptus'
 authorImage = 'adeptus.jpg'
+tags = ["meds", "hope"]
 +++
 
 ## where are we going
